@@ -1,0 +1,6 @@
+[submodule "usb_cam"]
+	path = usb_cam
+	url = git@github.com:yoshito-okada/usb_cam.git
+[submodule "h264_image_transport"]
+	path = h264_image_transport
+	url = git@github.com:yoshito-okada/h264_image_transport.git
