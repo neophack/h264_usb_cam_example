@@ -3,10 +3,10 @@
     <node name="insta360_node" pkg="usb_cam" type="usb_cam_node" output="screen">
         <param name="video_device" value="/dev/v4l/by-id/usb-Arashi_Vision_Insta360_Air-video-index0"/>
         <param name="pixel_format" value="h264"/>
-        <param name="image_width" value="3004"/>
-        <param name="image_height" value="1502"/>
-        <!-- <param name="image_width" value="1472"/> -->
-        <!-- <param name="image_height" value="736"/> -->
+        <param name="image_width" value="2560"/>
+        <param name="image_height" value="1280"/>
+        <!-- <param name="image_width" value="1920"/> -->
+        <!-- <param name="image_height" value="960"/> -->
         <param name="camera_name" value="insta360"/>
         <param name="publish_packet" value="true"/>
         <param name="packet_transport" value="h264"/>
